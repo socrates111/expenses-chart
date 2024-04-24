@@ -1,0 +1,232 @@
+@import url('https://fonts.google.com/specimen/DM+Sans');
+
+:root {
+    --Soft-red: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Very-pale-orange: hsl(33, 100%, 98%);
+}
+
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 110vh;
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--Cream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    max-width: 1440px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: var(--Soft-red);
+    width: 650px;
+    margin-bottom: 30px;
+    padding: 5px 0;
+}
+
+
+.balance {
+    margin-left: 30px;
+    font-size: 18px;
+    color: var(--Very-pale-orange);
+    font-weight: 400;
+}
+
+.ammount {
+    margin-left: 30px;
+    color: var(--Very-pale-orange);
+    font-size: 28px;
+    margin-top: -15px;
+    font-weight: 500;
+}
+
+.logo {
+    margin-left: 25rem;
+}
+
+.main-cont {
+    background-color: var(--Very-pale-orange);
+    border-radius: 20px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.name-h {
+    margin: 35px 0 0 30px;
+    font-size: 32px;
+}
+
+.stat-divs {
+    margin: 60px 0 0 30px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.stat-1 {
+    background-color: var(--Soft-red);
+    height: 55px;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    position:relative;
+}
+
+.stat-2 {
+    background-color: var(--Soft-red);
+    height: 110px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 37px;
+    cursor: pointer;
+}
+
+.stat-3 {
+    background-color: var(--Cyan);
+    height: 160px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 37px;
+    cursor: pointer;
+}
+
+.stat-4 {
+    background-color: var(--Soft-red);
+    height: 100px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 37px;
+    cursor: pointer;
+}
+
+.stat-5 {
+    background-color: var(--Soft-red);
+    height: 80px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 37px;
+    cursor: pointer;
+}
+
+.stat-6 {
+    background-color: var(--Soft-red);
+    height: 130px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 37px;
+    cursor: pointer;
+}
+
+.stat-7 {
+    background-color: var(--Soft-red);
+    height: 100px;
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 37px;
+    cursor: pointer;
+}
+
+.day-div {
+    margin: 15px 0 0 35px;
+    display: flex;
+
+}
+
+.days {
+    font-size: 22px;
+    color: var(--Medium-brown);
+}
+
+.aa {
+    margin-left: 50px;
+    color: var(--Medium-brown);
+    font-size: 22px;
+}
+
+.dd {
+    margin-left: 62px;
+}
+
+.line {
+    margin-top: 35px;
+    margin-left: 30px;
+    border: solid 0.5px var(--Medium-brown);
+    max-width: 88%;
+}
+
+.footer-div {
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    margin-top: 40px;
+    margin-left: 30px;
+  
+}
+
+.total-mont {
+    color: var(--Medium-brown);
+    font-weight: 400;
+}
+
+.sum {
+    font-size: 50px;
+    color: var(--Dark-brown);
+    margin-top: -10px;
+}
+
+.percent-div {
+    margin-left: 250px;
+    text-align: right;
+}
+
+.percent {
+    font-size: 22px;
+    margin-top: 70px;
+}
+
+.month-para {
+    color: var(--Medium-brown);
+    font-size: 22px;
+    margin-top: -30px
+}
+
+.info {
+    background-color: black;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    position: absolute;
+    margin-bottom: 80px;
+    
+}
+
+.m {
+    display:none;
+}
